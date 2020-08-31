@@ -1,6 +1,7 @@
 # Git Starter Page #
 
-"What do you call multiple developers working on the same project? - Merge Conflicts!"
+"What do you call multiple developers working on the same project? - Merge Conflicts!"  
+
 
 # History of Git # 
 1991 - Änderungen am Linux Kernel via patches und archive files
@@ -8,6 +9,7 @@
 2005 - Bruch zwischen Community und BitKeeper (verlangen nun Geld auch von der Community)
 
 ## Gwen Faraday - Git and GitHub for Beginners ##
+https://www.youtube.com/watch?v=RGOj5yH7evk
 
 What is Git?
 a free and open-source version control system
@@ -17,14 +19,24 @@ The management of changes to documents, computer programs, large web sites, and 
 
 ### git commands ###
 
-init   - create a new directory and initialize it with git-specific functions
-clone  - bring a repository that is hosted somewhere like github into a folder on your local machine
-add    - track your files and changes in git, make git aware of a particular file
-commit - save your files in git
-push   - upload git commits to a remote repo, like github
-pull   - download changes from a remote repo to local machine, the opposite of push
-status - shows the status of changes as untracked, modified, or staged
-merge  - merges lines of development together
+init   - create a new directory and initialize it with git-specific functions  
+clone  - bring a repository that is hosted somewhere like github into a folder on your local machine  
+add    - track your files and changes in git, make git aware of a particular file  
+            git add .  
+            git add file1.md file2.md  
+commit - save your files in git  
+            git commit -m "some message"  # -m stands for 'message'  
+push   - upload git commits to a remote repo, like github  
+            git push  
+            git push origin master        #  
+pull   - download changes from a remote repo to local machine, the opposite of push  
+status - shows the status of changes as untracked, modified, or staged  
+merge  - merges lines of development together  
+
+### ssh keys ###
+ssh-keygen -t rsa -b 4096 -C "email@example.com"
+
+- public / private key-pair
 
 ---------------------------------------
 https://guides.github.com/introduction/git-handbook/
