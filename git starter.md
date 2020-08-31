@@ -8,6 +8,10 @@
 2002 - Linux Kernel wird mit BitKeeper verwaltet (kostenlose Lizenz an die Linux Community)
 2005 - Bruch zwischen Community und BitKeeper (verlangen nun Geld auch von der Community)
 
+## Markdown ##
+The Markdown Guide by Matt Cone
+https://www.markdownguide.org/basic-syntax/
+
 ## Gwen Faraday - Git and GitHub for Beginners ##
 https://www.youtube.com/watch?v=RGOj5yH7evk
 
@@ -22,13 +26,13 @@ The management of changes to documents, computer programs, large web sites, and 
 init   - create a new directory and initialize it with git-specific functions  
 clone  - bring a repository that is hosted somewhere like github into a folder on your local machine  
 add    - track your files and changes in git, make git aware of a particular file  
-            git add .  
-            git add file1.md file2.md  
+>           git add .  
+>           git add file1.md file2.md  
 commit - save your files in git  
-            git commit -m "some message"  # -m stands for 'message'  
+>            git commit -m "some message"  # -m stands for 'message'  
 push   - upload git commits to a remote repo, like github  
-            git push  
-            git push origin master        #  
+>            git push  
+>            git push origin master        #  
 pull   - download changes from a remote repo to local machine, the opposite of push  
 status - shows the status of changes as untracked, modified, or staged  
 merge  - merges lines of development together  
