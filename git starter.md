@@ -23,9 +23,12 @@ add    - track your files and changes in git, make git aware of a particular fil
 commit - save your files in git
 push   - upload git commits to a remote repo, like github
 pull   - download changes from a remote repo to local machine, the opposite of push
+status - shows the status of changes as untracked, modified, or staged
+merge  - merges lines of development together
 
 ---------------------------------------
 https://guides.github.com/introduction/git-handbook/
+
 **Example: Contribute to an existing repository**
 ```code=bash
 # download a repository on GitHub.com to our machine
@@ -52,6 +55,7 @@ git commit -m "my snapshot"
 git push --set-upstream origin my-branch
 ```
 **Example: Start a new repository and publish it to GitHub**
+```code=bash
 # create a new directory, and initialize it with git-specific functions
 git init my-repo
 
@@ -72,9 +76,11 @@ git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 
 # push changes to github
 git push --set-upstream origin main
-
+```
 **Example: contribute to an existing branch on GitHub**
-# assumption: a project called `repo` already exists on the machine, and a new branch has been pushed to GitHub.com since the last time changes were made locally
+```code=bash
+# assumption: a project called `repo` already exists on the machine, and a new branch 
+# has been pushed to GitHub.com since the last time changes were made locally
 
 # change into the `repo` directory
 cd repo
@@ -95,3 +101,4 @@ git commit -m "edit file1"
 
 # push changes to github
 git push
+```
